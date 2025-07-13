@@ -1,0 +1,10 @@
+# El Objetivo (lo que el cliente pide)
+string mission_type
+float32 target_x
+float32 target_y
+---
+# El Resultado (lo que el servidor devuelve al final)
+bool success
+---
+# El Feedback (lo que el servidor publica durante la ejecución)
+float32 percent_complete
